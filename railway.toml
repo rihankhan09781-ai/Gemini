@@ -1,0 +1,7 @@
+# ── Railway Deployment Config ────────────────────────────────────────────────
+[build]
+dockerfilePath = "Dockerfile"
+
+[deploy]
+restartPolicyType = "always"
+restartPolicyMaxRetries = 10
